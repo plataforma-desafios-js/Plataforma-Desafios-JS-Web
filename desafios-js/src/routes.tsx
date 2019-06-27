@@ -3,10 +3,11 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
   
 import './App.css';
-import Login from './Pages/Login/Login';
-import Cadastro from './Pages/Cadastro/Cadastro';
-import Landing from './Pages/Landing/Landing';
-import Home from './Pages/Home/Home';
+import Login from './Pages/Login';
+import Cadastro from './Pages/Cadastro';
+import Landing from './Pages/Landing';
+import Home from './Pages/Home';
+import Perfil from './Pages/Perfil';
 
 const Routes: React.FC = () => {
   return (
@@ -16,6 +17,8 @@ const Routes: React.FC = () => {
             <Route path="/login" component={Login} />
             <Route path="/cadastro" component={Cadastro} />
             <Route path="/home" component={Home} />
+            <Route path="/perfil" component={Perfil} />
+            
 
         </Switch>
     </BrowserRouter>
