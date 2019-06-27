@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import BottomNavbar from '../BottomNavbar';
 
-const LayoutHome: React.FC = ({children}) => {
-  return (
-    <div className="divider-view">
-        <header className="sidebar">
+class LayoutHome extends React.Component<any, any> {
+  
+  render() {
+    return (
+      <Fragment>
 
-        </header>
         <main className="view">
-            {children}
+          {this.props.children}
         </main>
-    </div>
-  );
+        <BottomNavbar />
+      </Fragment>
+    );
+  }
 }
 
 export default LayoutHome;
