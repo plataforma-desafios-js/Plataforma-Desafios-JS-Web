@@ -26,12 +26,12 @@ const Login: React.FC = () => {
 
                     <div className="input-group">
                         <label>Email ou usuário</label>
-                        <input className="input" type="text" placeholder="email ou usuário" autoFocus value={email} onChange={inputHandler(setEmail)} />
+                        <input className="input" type="text" placeholder="Email ou usuário" autoFocus value={email} onChange={inputHandler(setEmail)} />
                     </div>
 
                     <div className="input-group">
                         <label>Senha</label>
-                        <input className="input" type="password" placeholder="sua senha" value={senha} onChange={inputHandler(setSenha)} />
+                        <input className="input" type="password" placeholder="Sua senha" value={senha} onChange={inputHandler(setSenha)} />
                     </div>
                     <button type="submit" className="btn btn-block btn-primary">Entrar</button>
 

@@ -43,7 +43,7 @@ main{
   flex-direction: column;
 }
 .bottomNavBar{
-  background-color: #9c27b0;
+  background-color: #4717f6;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -76,6 +76,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #fafafa;
 }
 .view {
   flex: 1;
@@ -85,7 +86,7 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffeb007a;
+  background-color: #e7dfdd;
   padding: 2rem;
 }
 
@@ -127,6 +128,7 @@ main{
   border-radius: 0.25rem;
   font-size: 1.1rem;
 }
+
 .btn {
   text-transform: none;
   text-decoration: none;
@@ -140,10 +142,17 @@ main{
   width: fit-content;
   color: rgba(0, 0, 0, 0.7);
 }
+
+.btn:hover {
+  opacity: 0.7;
+}
+
 .btn-primary {
-  background-color: #9c27b0;
+  background-color: #4717f6;
   color: #fff;
 }
+
+
 .btn-block {
   width: 100%;
 }
