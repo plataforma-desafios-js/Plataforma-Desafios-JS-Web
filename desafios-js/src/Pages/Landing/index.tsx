@@ -8,7 +8,10 @@ class Landing extends React.Component<any, any> {
   public render() {
     return (
       <div className="landing-container">
-        <video src={video} className="video-overlay" autoPlay />
+          <div className="overlay">
+            <h1 style={{color:'white'}}>Desafios JS</h1>
+          </div>
+          <video src={video} className="video-overlay" autoPlay />
       </div>
     );
   }
