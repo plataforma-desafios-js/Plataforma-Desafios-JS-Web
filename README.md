@@ -4,7 +4,7 @@
 ## Oi, tudo bem?
 Olá! Seja bem-vindo ao repositório de frontend da Plataforma de Desafios da comunidade de estudantes e programadores de tecnologias frontend que surgiu em volta das [lives de programação](https://www.twitch.tv/mbernardes19/) do [Matheus](https://github.com/mbernardes19) na Twitch.
 
-## Que diabo é uma plataforma de desafios?
+## Mas do que se trata uma plataforma de desafios?
 
 Boa pergunta.
 
